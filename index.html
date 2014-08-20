@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Javascript REPL with additional transparency to V8 internal functioning</title>
+
+  <link rel="stylesheet" media="all" href="css/repl.css">
+  <link href='http://fonts.googleapis.com/css?family=Source+Code+Pro:500' rel='stylesheet' type='text/css'>
+
+  <script src="vendor/jquery/dist/jquery.js"></script>
+
+  <script src="vendor/esprima/esprima.js"></script>
+  <script src="vendor/estraverse/estraverse.js"></script>
+  <script src="vendor/escodegen/escodegen.browser.js"></script>
+
+  <script src="vendor/underscore/underscore.js"></script>
+  <script src="js_types.js"></script>
+</head>
+<body>
+    <div id="content">
+        <div class="instructions">
+            <h1>Test internal function calls</h1>
+            <p>
+                Type your JS-code to the box below. It gets evaluated, and console.logs get redirected to the window on the right.
+            </p>
+        </div>
+        <form id="repl-content" name="repl-content">
+            <textarea name="repl-code" autofocus id="repl-code" value="">
+            </textarea>
+            <input type="submit" id="btn-submit" value="Submit" />
+        </form>
+        <div id="repl-console"></div>
+    </div>
+
+    <script src="repl.js"></script>
+</body>
+</html>

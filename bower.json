@@ -1,0 +1,25 @@
+{
+  "name": "malabi",
+  "main": "malabi.js",
+  "version": "0.0.1",
+  "authors": [
+    "marcus.malka@gmail.com"
+  ],
+  "description": "Small JS-utility library in the spirit of underscore, lo-dash etc.",
+  "keywords": [
+    "malabi",
+    "js",
+    "functional"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "vendor"
+  ],
+  "dependencies": {
+    "chai": "~1.8.1",
+    "mocha": "~1.16.2"
+  }
+}
