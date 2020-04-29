@@ -1,0 +1,33 @@
+{
+  "name": "js-transparency-repl",
+  "version": "1.0.0",
+  "description": "x",
+  "main": "index.html",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marqsm/js-transparency-repl.git"
+  },
+  "keywords": [
+    "js"
+  ],
+  "author": "marcus malka",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/marqsm/js-transparency-repl/issues"
+  },
+  "homepage": "https://github.com/marqsm/js-transparency-repl#readme",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^7.1.2",
+    "underscore": "~1.10.2",
+    "esprima": "~2.7.0",
+    "estraverse": "~1.9.3",
+    "escodegen-browser": "~1.11.1"
+  }
+}
